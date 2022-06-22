@@ -1,0 +1,24 @@
+{
+  "name": "mercadolibre",
+  "version": "1.0.0",
+  "description": "Clon Mercado Libre",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/styles.scss css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoPortillo/MercadoLibre.git"
+  },
+  "keywords": [
+    "Clon",
+    "MercadoLibre"
+  ],
+  "author": "Arturo Portillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturoPortillo/MercadoLibre/issues"
+  },
+  "homepage": "https://github.com/ArturoPortillo/MercadoLibre#readme"
+}
