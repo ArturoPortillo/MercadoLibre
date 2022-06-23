@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFE600;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  grid-template-rows: auto 1fr auto;
+  border: 1px solid red;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.regionList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: blue;
+}
+
+li {
+  margin: 1.2px;
+}
+
+.region {
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 0.9rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 28px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.region .country {
+  display: flex;
+  align-items: center;
+  margin: 0 14px 0 6px;
+}
+.region .flag {
+  margin: 0 6px 0 6px;
+  width: 32px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    place-items: center;
+    margin-top: 12rem;
+  }
+}
+/* 
+
+.ar::after {
+    content: "Argentina";
+    color: blue;
+    text-decoration: none;
+    font-size: 1rem;    
+    margin-right: 5px;
+    margin-bottom: 25px;
+
+    .ar::before {
+        content: url(https://img.icons8.com/color/24/000000/argentina.png);   
+        }
+}
+ */
+/* .bo::after {
+    content: "Bolivia";
+    color: blue;   
+}
+
+.bo::before {
+    content: url(https://img.icons8.com/color/24/000000/bolivia.png);   
+    display: inline-block;
+    }
+ */
+
+/*# sourceMappingURL=styles.css.map */

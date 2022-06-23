@@ -4,7 +4,7 @@
   "description": "Clon Mercado Libre",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/styles.scss css/styles.css",
+    "compile:sass": "sass --watch sass/styles.scss css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
